@@ -1,0 +1,761 @@
+body{
+  
+    background:linear-gradient(to bottom right,#002e33,#002e33);
+    padding: 0%;
+    margin: 0%;
+    
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'chutiya-bold';
+    src: url('static/Oswald-SemiBold.ttf');
+  }
+
+
+
+::-webkit-scrollbar {
+    width:20px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background-color: #002e33;
+    background-clip: content-box;  
+    
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background-image: url("thumb.png");
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 20px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-image: url("thumb.png");
+    background-repeat: no-repeat;
+    background-size: 20px 10px;
+    background-color: #02272c;
+
+  }
+
+#menubtn {
+    display: none;
+}
+
+.clsbtn {
+    display: none;
+}
+
+#vid1{
+    display: block;
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: 0.7;
+    z-index: 1;
+}
+.taglinediv{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 60%;
+    transform: translate(-50%,-40%);
+    z-index: 99;
+}
+.tagline{
+    font-size: 3.2em;
+    font-family:chutiya-bold;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+
+#div2p1{
+    padding-top: 3%;
+    color: #02272c;
+    font-size: 2.7em;
+    font-weight: bolder;
+    font-family:chutiya-bold;
+    
+}
+
+.logo{
+    width: 40%;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bolder;
+
+}
+
+#navbar{
+
+    background-color: #02272c;
+    width: 100vw;
+  
+}
+
+
+#div1img{
+
+    width: 600px;
+    height: 600px;
+}
+
+#div2btn1{
+    
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background: linear-gradient(#002e33,#002e33);
+}
+
+#btn2{
+    
+    color:white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(#002e33,#002e33);
+
+    text-decoration: none;
+
+    cursor: pointer;
+    
+}
+#btn2:hover{
+    color: gray;
+    background: linear-gradient(#002e33,black);
+    
+}
+
+
+#div2{
+    display: block;
+    position: relative;
+    margin-top: -10%;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+.numbers{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border: 2px solid white;
+    height: 73px;
+    width: 80px;
+    
+    /* padding: 3px 22px; */
+    border-radius: 50%;
+    text-align: center;
+}
+
+.div3h2{
+    color:white;
+
+    font-size:3.3em;
+    font-weight: bold;
+    margin-bottom: 10%;
+    
+}
+.numbercontent{
+    color: white;
+    margin-left: 5%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#div2img{
+    margin-top: 15%;
+}
+
+
+
+#cityimg{
+    display: block;
+    position: relative;
+    width: 130%; 
+    height: 35%;
+    left: -15%;
+    top: 40%;
+}
+
+#mountimg{
+    display: block;
+    position: absolute;
+    width: 130%; 
+    height: 35%;
+   
+}
+
+#div3{
+    margin-top: 10%;
+}
+
+#div3img1{
+    display: block;
+    position: relative;
+    width: 260px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 4%;   
+    border: 10px solid red;
+}
+
+#div3img2{
+    width: 260px;
+    border-radius: 20px;
+    margin: 4%;
+    
+}
+
+#div3img3{
+    width: 260px;
+    border-radius: 20px;
+    margin: 4%;
+    
+}
+
+#div3img4{
+    width: 260px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 4%;
+    
+}
+
+
+.div4h2{
+    color: #02272c;
+    font-size: 3.3em;
+    font-weight: bold;
+}
+
+#div4{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 3%;
+    
+}
+
+
+ #div6{
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("https://img.icons8.com/external-only-li-kalash/512/000000/external-business-business-management-only-li-kalash.png") no-repeat right;
+    border-radius: 20px;
+    background-size: contain;
+    background-color: #d9f6ef;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    padding: 3%; 
+}
+
+#div6p1{
+    
+   color:#02272c;
+   font-weight: bolder;
+   font-size: 3.3em;
+   margin:0;
+   padding: 0;
+   
+} 
+
+#div6hashtag{
+    color: #02272c;
+    font-size: 1.5em;
+}
+
+
+#brandicon{
+    margin-top: 1%;
+    height: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#div5 h2{
+    color: white;
+    font-size: 3.3em;
+    text-align: center;
+}
+
+#div5card1{
+    display: inline-flex;
+    background-color: white;
+    padding: 7% 3% 3% 3%;
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    
+}
+
+#div5card1:hover{
+    
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+#div5card1 img{
+    height: 80px;
+    width: 100px;
+    padding: 2%;
+}
+
+
+#div7 h3{
+    color: white;
+}
+
+#contactform{
+    background-color: white;
+    padding: 8%;
+    margin: 10%;
+    margin-bottom: -15%;
+}
+
+#contactform p{
+    color: #02272c;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#SendMailbtn{
+    background-color: #002e33;
+}
+
+#footer{
+    background-color: #02272c;
+    height: 300px;
+    z-index: -1;
+}
+
+#footer hr{
+    z-index: 99;
+    background-color: white;
+    color:white;
+}
+
+
+
+#footerlink{
+    display: block;
+    float: right;
+    width: 40%;
+    margin-left: auto;
+    margin-top: 3%;
+    color:white;
+    
+   
+}
+
+
+#footerlink a{
+    color: white;
+    font-size: 1.1em;
+    padding-right:1%;
+    padding-left: 1%;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    
+}
+
+#footerlink a:hover{
+    color: #a9e1d3;
+ 
+}
+
+
+#div7icon{
+    font-size:24px; 
+    color:white;
+}
+
+
+
+
+
+#AdvertiserDiv{
+    display: block;
+    padding-top: 10%;
+}
+
+
+#AdvertiserDivp2 {
+    font-size: 1.2em;
+}
+
+#PublisherDivp2 {
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width:800px) {
+    #menubtn {
+        display: block;
+    }
+
+
+    .clsbtn {
+
+        font-weight: bolder;
+        color: #151333;
+        display: block;
+        margin-top: 5%;
+        margin-right: 5%;
+        float: right;
+    }
+
+    #collapsibleNavId {
+        display: block;
+        position: absolute;
+        left: -100%;
+        background-color: white;
+        color: #02272c;
+        height: 100vh;
+        width: 90%;
+        top: 20%;
+        transition: 1s ease-in-out;
+        z-index:2147483647;
+    }
+    
+
+    .nav-link:first-child {
+        margin-top: 10%;
+    }
+
+    .nav-link {
+       
+        margin-top: 5%;
+        text-align: center;
+        color: #02272c !important;
+        font-weight: bolder;
+
+    }
+    
+    .navbar-brand{
+        width: 60%;
+    }
+
+
+    .logo{
+        width: 50%;
+    }
+    .tagline{
+        font-size: 1.4em;
+    }
+    .taglinediv{
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        width: 90vw;
+        transform: translate(-50%,-40%);
+        z-index: 99;
+    }
+    .taglinediv h1{
+        font-size: 1.2em;
+    }
+
+    #vid1{
+        display: block;
+        /* position: relative; */
+        width: 100vw;
+    
+        background:linear-gradient(to bottom right,#002e33,#002e33);
+        
+    }
+    #btn2{
+    
+        color:white;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 5px;
+        background: linear-gradient(#002e33,#002e33);
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
+
+    #div2{
+        display: block;
+        position: relative;
+        margin-top: -10%;
+        width: 90vw;
+        border-radius: 30px;
+        background-color: white;
+    }
+
+    #div2p1{
+        padding-top: 8%;
+        color: #02272c;
+        font-size: 1.3em;
+        font-weight: bolder;
+        font-family:chutiya-bold;
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: 0;
+    }
+
+    #div2btn1{
+        display: block;
+        color: white;
+        font-size: 0.8em;
+        font-weight: bold;
+        border: 1px solid white;
+        text-align: center;
+        padding: 5px;
+        border-radius: 20px;
+        background: linear-gradient(#002e33,#002e33);
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        
+    }
+
+    #div2img{
+        margin-top: 10%;
+    }
+
+    .div3h2{
+        color:white;
+        font-size:1.6em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .numbercontent{
+        color: white;
+        margin-left: 5%;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .numbers{
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        border: 2px solid white;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .div3Card{
+        display: block;
+        background-color: #02272c;
+        padding: 3% 5%;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+
+    #div3img1{
+        margin-left: auto;
+        float: right;
+        width: 160px;
+        height: 230px;
+        border-radius: 20px;
+        margin-left: 5%; 
+        border: 10px solid red;
+    }
+    
+    #div3img2{
+        margin-left: auto;
+        float: right;
+        width: 160px;
+        border-radius: 20px;
+        margin: 2%;
+        
+    }
+    
+    #div3img3{
+        width: 160px;
+        border-radius: 20px;
+        margin-top: 5%;
+        
+    }
+    
+    #div3img4{
+        width: 160px;
+        height: 230px;
+        border-radius: 20px;
+        margin-left: 5%;
+        
+    }
+
+    .div4h2{
+        color: #02272c;
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    .div4 p{
+        font-size: 1em;
+    }
+
+    #div5 h2{
+        color: white;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    #div5card1{
+        display: inline-flex;
+        background-color: white;
+        padding: 7% 3% 3% 3%;
+        width: 100%;
+        height: 130px;
+        margin-top: 10%;
+        border-radius: 10px;
+        transition: 1s ease-in-out;
+    }
+
+    #div5card1 h4{
+        font-size: 1em;
+    }
+
+    #div5card1 p{
+        font-size: 0.7em;
+    }
+
+    #div5card1 img{
+        height: 50px;
+        width: 80px;
+        padding: 2%;
+    }
+
+    #div6{
+        border-radius:0px;
+    
+    }
+
+    #div6p1{
+    
+        color:#02272c;
+        font-weight: bolder;
+        font-size: 1.6em;
+        margin:0;
+        padding: 0;
+        
+     } 
+     
+     #div6hashtag{
+         color: #02272c;
+         font-size: 1em;
+     }
+
+     #brandicon{
+        margin-top: 1%;
+        height: 50px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #div7 h3{
+        font-size: 1.6em;
+    }
+
+    #div7icon{
+        font-size: 1em;
+        margin-top: 2%;
+    }
+
+    #footer{
+        background-color: #02272c;
+        height: 350px;
+        z-index: -1;
+    }
+
+    .footer-logo{
+        margin-top: 25%;
+    }
+    .footer-logo img{
+        display: block;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #footerlink{
+        display: block;
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-top: 3%;
+        color:white;
+    
+    }
+    
+    
+    #footerlink a{
+        color: white;
+        font-size: 1.1em;
+        padding-right:1%;
+        padding-left: 1%;
+        transition: 1s ease-in-out;
+        cursor: pointer;
+        
+    }
+    
+    #AdvertiserDiv{
+        display: block;
+        padding-top: 20%;
+    }
+
+    #AdvertiserDivp1{
+        font-size: 1.6em;
+    }
+
+    #PublisherDivp1{
+        font-size: 1.6em;
+    }
+
+    #AdvertiserDivp2{
+        font-size: 1em;
+    }
+
+    #PublisherDivp2 {
+        font-size: 1em;
+    }
+
+
+
+
+
+
+}
